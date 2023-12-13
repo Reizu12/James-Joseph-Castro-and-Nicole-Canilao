@@ -1,0 +1,12 @@
+FONTS
+-Works sans
+-Eczar
+-Fanwood text
+-Fredoka One
+
+Bg color
+-FFEED9
+-FFE5CC
+
+font color
+-403930

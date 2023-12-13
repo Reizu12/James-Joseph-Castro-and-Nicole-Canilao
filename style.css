@@ -1,0 +1,863 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+	margin:0;
+    margin: 0 auto;
+	padding:0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFEED9;
+}
+
+/* Header navigation*/	
+.header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: #fff1df;
+    justify-content: space-between;
+    z-index: 30;
+}
+
+.logo {
+   padding-left: 20px;
+}
+
+.navigation {
+    max-width: 1080px;
+}
+.navigation ul {
+    margin-top: -1%;
+	list-style:none;
+    display: flex;
+    margin-left: 110px;
+}
+
+.navigation li {
+	padding: 20px 10px;
+    border-radius: 50px;
+    font-size: 20px;
+	color:#555552;
+    margin-right: 50px;
+
+}
+
+.navigation li:hover{
+	color:white;
+	background:black;
+	border-radius: 2.5px;
+}
+
+/* caption */	
+.hero-caption{
+	color: black;
+    font-size: 120px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 25px;
+    font-family: monospace;
+}
+
+.hero-image{
+	background: white center center no-repeat;
+    height: 35em;
+	margin: 0 auto;
+	background-size: cover;
+		
+}
+
+/* About me container*/	
+.about-me{
+    margin-top:50px;
+    padding-top:27px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    opacity: 0; 
+    transition: opacity 1s ease-in-out; 
+    margin-bottom: 0;
+}
+
+.profile-picture {
+    border-radius: 15px;
+    overflow: hidden;
+    width: auto; 
+    max-width: 110%; 
+    height: 100%;
+}
+
+.main-about-me{
+    justify-content: center;
+    flex: 1; 
+    max-width: 500px; 
+    margin: 10px 40px 0px 40px; 
+}
+
+
+.role{
+    margin-top:-13px;
+    color:gray;
+    font-size: 20px;
+    
+}
+.about-me-text{
+    font-size: 20px;
+	margin-left:3px
+}
+
+
+.contact-me {
+    padding: 10px 20px;
+    border-radius: 25px; 
+    color: #555552;
+    border-color: #555552;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: monospace;
+    margin-left:-2px;
+}
+
+
+/* James-recent-project container*/	
+
+.james-recent-project{
+    margin-top: 80px;
+    margin-bottom: 150px;
+ 
+}
+
+.james-recent-project-container {
+    align-items: center;
+    justify-content: center;
+        
+}
+
+.james-recent-project-container-box{
+    background-color: #fff9f1;
+    display: flex;
+    width: 80%; 
+    height: 550px; 
+    margin: 4%;
+    border-radius: 25px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+
+.james-recent-project-container-box img {
+    position: absolute;
+    height: 550px;
+    right: 0;
+}
+
+.james-recent-project-container-box h2{
+    margin-left: 50px;
+    margin-top: 80px;
+    font-size: 28px;
+}
+
+.james-recent-project-container-box .p{
+    width: 50%;
+    position: absolute;
+    left: 0;
+    margin-left: 50px;
+    margin-top: 150px;
+    text-align: left;
+}
+
+.james-recent-project-container-box .p p{
+    font-size: 28px;
+}
+
+.james-recent-project-text{
+    font-weight: bold;
+	margin-left: 10%;
+	font-size: 40px;
+}
+
+/* James-SkillSet */
+.james-skill{
+    display: flex;
+}
+.james-skill .james-skill-text{
+    width: 650px;
+    height: 700px;
+}
+.james-skill .james-skill-text h2{
+    text-align: center;
+    font-size: 28px;
+}
+
+.james-skill .james-skill-text ul li{
+    font-size: 24px;
+    margin-top: 25px;
+}
+
+/* James-Toolbox*/
+.james-skill .logo{
+    width: 800px;
+    height: 700px;
+    position: relative;
+    margin-left: 50px;
+
+}
+
+.james-skill .logo img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.james-skill .logo > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.james-skill .logo > div > img{
+    width: 50%;
+    height: 60%;
+}
+
+.logo{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
+}
+
+.james-skill .logo h2{
+    position: absolute;
+    font-size: 28px;
+    margin-top: -60px;
+    margin-left: 290px;
+}
+
+	
+.james-skill-container{
+    background-color: #ffe0b7;
+    display: flex;
+    justify-content: center;
+align-items: center;
+    padding: 50px 30px;
+}   
+
+/*Nicole Recent Project*/
+.nicole-recent-project{
+    margin-top: 80px;
+    margin-bottom: 150px;
+ 
+}
+
+.nicole-recent-project-container {
+    align-items: center; 
+    justify-content: center; 
+}
+
+.nicole-recent-project-container-box{
+    background-color: #fff9f1;
+    display: flex;
+    width: 80%; 
+    height: 550px; 
+    margin: 4%; 
+    border-radius: 25px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+
+.nicole-recent-project-container-box img {
+    position: absolute;
+    height: 550px; 
+    right: 0;
+    
+}
+
+.nicole-recent-project-container-box h2{
+    margin-left: 50px;
+    margin-top: 80px;
+    font-size: 28px;
+}
+
+.nicole-recent-project-container-box .p{
+    width: 50%;
+    position: absolute;
+    left: 0;
+    margin-left: 50px;
+    margin-top: 150px;
+    text-align: left;
+}
+
+.nicole-recent-project-container-box .p p{
+    font-size: 28px;
+}
+
+
+
+
+.nicole-recent-project-text{
+    font-weight: bold;
+	margin-left: 10%;
+	font-size: 40px;
+}
+
+/* Nicole-SkillSet */
+.nicole-skill{
+    display: flex;
+}
+.nicole-skill .nicole-skill-text{
+    width: 650px;
+    height: 700px;
+}
+.nicole-skill .nicole-skill-text h2{
+    text-align: center;
+    font-size: 28px;
+}
+
+.nicole-skill .nicole-skill-text ul li{
+    font-size: 24px;
+    margin-top: 25px;
+}
+
+/* Nicole-Toolbox*/
+
+.nicole-skill .logo{
+    width: 800px;
+    height: 700px;
+    position: relative;
+    margin-left: 50px;
+
+}
+
+.nicole-skill .logo img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.nicole-skill .logo > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nicole-skill .logo > div > img{
+    width: 50%;
+    height: 60%;
+}
+
+.logo{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
+}
+
+.nicole-skill .logo h2{
+    position: absolute;
+    font-size: 28px;
+    margin-top: -60px;
+    margin-left: 290px;
+}
+
+.nicole-skill .logo img{
+
+}
+
+	
+.nicole-skill-container{
+    background-color: #ffe0b7;
+    display: flex;
+    justify-content: center;
+align-items: center;
+    padding: 50px 30px;
+} 
+
+
+/* Contact Us*/
+
+/*James Contact Us*/
+
+.connect{
+    background-color: #ffd7a3;
+    position: relative;
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.connect .contact-them{
+    width: 1400px;
+    height: 800px;
+    margin: 0 auto 0 auto;
+    position: relative;
+}
+
+.connect .connect-text{
+    position: absolute;
+    width: 100%;
+    height: 35px;
+    margin-top: -80px;
+    text-align: center;
+}
+
+.connect .connect-text h2{
+    font-size: 50px;
+}
+
+.connect .jamesConnect{
+    position: absolute;
+    margin-top: 80px;
+    width: 850px;
+    text-align: center;
+
+}
+
+.connect .jamesConnect .jamesPic{
+    width: 350px;
+    height: 350px;
+    border-radius: 175px;
+    border:5px solid black;
+}
+
+.connect .jamesConnect h2{
+    font-size: 34px;
+    margin-left: -3px;
+}
+
+.connect .jamesConnect .firstrow{
+    justify-content: center;
+    display: flex;
+}
+.connect .jamesConnect .firstrow div{
+    margin-right: 20px;
+}
+
+.connect .jamesConnect .secondrow{
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+.connect .jamesConnect .secondrow div{
+    margin-right: 20px;
+}
+.connect .jamesConnect .thirdrow{
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+.connect .jamesConnect .thirdrow div{
+    margin-right: 20px;
+}
+
+.connect .jamesConnect a div{
+    text-align: left;
+    width: 150px;
+    height: 25px;
+    background-color: whitesmoke;
+    padding: 10px 10px 10px 25px;
+    border-radius: 35px ;
+    border: 2px solid rgb(177, 177, 177);
+}
+
+.connect .jamesConnect a .email{
+    width: 350px;
+    height: 25px;
+    background-color: whitesmoke;
+    padding: 10px 10px 10px 25px;
+    border-radius: 35px ;
+    border: 2px solid rgb(177, 177, 177);
+}
+
+.connect .jamesConnect a img{
+    width: 30px;
+    height: 30px;
+}
+
+/*Nicole Contact Us*/
+
+.connect .nicoleConnect{
+    position: absolute;
+    margin-top: 80px;
+    width: 850px;
+    text-align: center;
+    right: 0;
+
+}
+
+.connect .nicoleConnect .nicolePic{
+    width: 350px;
+    height: 350px;
+    border-radius: 175px;
+    border:5px solid black;
+}
+
+.connect .nicoleConnect h2{
+    font-size: 34px;
+    margin-left: -3px;
+}
+
+.connect .nicoleConnect .firstrow{
+    justify-content: center;
+    display: flex;
+}
+.connect .nicoleConnect .firstrow div{
+    margin-right: 20px;
+}
+
+.connect .firstrow img, .secondrow img, .thirdrow img{
+    position: absolute;
+} 
+
+.connect .firstrow span, .secondrow span, .thirdrow span{
+    margin-left: 38px;
+}
+
+.connect .nicoleConnect .secondrow{
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+.connect .nicoleConnect .secondrow div{
+    margin-right: 20px;
+}
+.connect .nicoleConnect .thirdrow{
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+.connect .nicoleConnect .thirdrow div{
+    margin-right: 20px;
+}
+
+.connect .nicoleConnect a div{
+    text-align: left;
+    width: 150px;
+    height: 25px;
+    background-color: whitesmoke;
+    padding: 10px 10px 10px 25px;
+    border-radius: 35px ;
+    border: 2px solid rgb(177, 177, 177);
+}
+
+.connect .nicoleConnect a .email{
+    width: 350px;
+    height: 25px;
+    background-color: whitesmoke;
+    padding: 10px 10px 10px 25px;
+
+    border-radius: 35px ;
+    border: 2px solid rgb(177, 177, 177);
+}
+
+.connect .nicoleConnect a img{
+    width: 30px;
+    height: 30px;
+}
+
+
+    .banner.hidden {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    }
+
+    .banner.visible {
+        opacity: 1;
+        transform: translateY(0);
+        transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    }
+
+    .james-recent-project-container-box img {
+        transition: transform 0.3s ease-in-out; 
+    }
+    
+    .james-recent-project-container-box:hover img {
+        transform: scale(1.1); 
+    }
+
+    .nicole-recent-project-container-box img {
+        transition: transform 0.3s ease-in-out; 
+    }
+    
+    .nicole-recent-project-container-box:hover img {
+        transform: scale(1.1); 
+    }
+
+    .slide-in {
+        transform: translateX(-100%);
+        animation: slideInFromLeft 1s ease-in-out;
+    }
+    
+    @keyframes slideInFromLeft {
+        from {
+            transform: translateX(-100%);
+        }
+        to {
+            transform: translateX(0);
+        }
+    }
+    
+    .slide-in-right {
+        transform: translateX(100%);
+        animation: slideInFromRight 1s ease-in-out;
+    }
+    
+    @keyframes slideInFromRight {
+        from {
+            transform: translateX(100%);
+        }
+        to {
+            transform: translateX(0);
+        }
+    }
+    
+    .slide-down {
+        transform: translateY(-100%);
+        animation: slideDown 1s ease-in-out;
+    }
+    
+    @keyframes slideDown {
+        from {
+            transform: translateY(-100%);
+        }
+        to {
+            transform: translateY(0);
+        }
+    }
+
+    .banner {
+        background-attachment: fixed;
+        background-color: #FFE5CC;
+        background-image: url("../../images/banner.jpg");
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+        text-align: left;
+        z-index: 21;
+    }
+    
+    .banner:before {
+        content: '';
+        vertical-align: middle;
+        width: 1%;
+    }
+    
+    .banner:after {
+        display: block;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    
+    .banner .content {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        max-width: 100%;
+        max-height: 100%;
+        padding: 100px;
+        position: relative;
+        text-align: left;
+        overflow: hidden;
+    }
+    
+    .banner .content .aboutJamesText .aboutNicoleText{
+        margin-left: -150px;
+    }
+    
+    .banner .content h2 {
+        font-size: 40px;
+        margin: 0 0 0 300px;
+        text-align: left;
+        color: black;
+    }
+    
+    .banner .content p {
+        color: black;
+        font-size: 25px;
+        margin: 25px 0 0 300px;
+        top: 0;
+    }
+
+    .banner .content .image img {
+        position: relative;
+        height: 850px;
+        width: auto;
+    }
+    
+    body.is-touch .banner {
+        background-attachment: scroll;
+    } 
+
+    @media screen and (max-width: 780px) {
+        .navigation ul {
+            margin-left: 60px;
+        }
+    
+        .james-recent-project-container-box,
+        .nicole-recent-project-container-box {
+            width: 90%;
+        }
+    
+        .james-skill .james-skill-text,
+        .nicole-skill .nicole-skill-text {
+            width: 100%;
+        }
+    
+        .james-skill .logo,
+        .nicole-skill .logo {
+            width: 100%;
+            margin-left: 0;
+        }
+    
+        .james-skill .logo h2,
+        .nicole-skill .logo h2 {
+            margin-top: -20px;
+            margin-left: 10px;
+        }
+    
+        .connect .contact-them {
+            width: 100%;
+        }
+    
+        .connect .jamesConnect,
+        .connect .nicoleConnect {
+            width: 100%;
+        }
+    
+        .connect .jamesConnect .firstrow,
+        .connect .jamesConnect .secondrow,
+        .connect .jamesConnect .thirdrow,
+        .connect .nicoleConnect .firstrow,
+        .connect .nicoleConnect .secondrow,
+        .connect .nicoleConnect .thirdrow {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        body {
+            margin-left: 10px;
+        }
+    
+        .header {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .navigation {
+            margin-left: 0;
+            margin-top: -10px;
+        }
+    
+        .logo {
+            margin-left: 28px;
+        }
+    
+        .rounded-button {
+            margin-top: -5px;
+            margin-left: 30px;
+        }
+    
+        .hero-caption {
+            padding-top: 90px;
+            padding-bottom: 60px;
+            font-size: 50px;
+        }
+    
+        .small-caption {
+            font-size: 20px;
+        }
+    
+        .main-about-me {
+            max-width: 100%;
+        }
+    
+        .contact-container {
+            display: flex;
+            justify-content: center;
+            gap: 0px 0px;
+            align-items: center;
+        }
+    
+        .james-recent-project-container-box img,
+        .nicole-recent-project-container-box img {
+            transition: transform 0.3s ease-in-out;
+        }
+    
+        .james-recent-project-container-box:hover img,
+        .nicole-recent-project-container-box:hover img {
+            transform: scale(1.1);
+        }
+
+        /* test*/
+
+        .james-recent-project{
+            margin-top: 80px;
+            margin-bottom: 150px;
+         
+        }
+        
+        .james-recent-project-container {
+            align-items: center; 
+            justify-content: center;
+                
+        }
+        
+        .james-recent-project-container-box{
+            background-color: #fff9f1;
+            display: flex;
+            width: 80%;
+            height: 1550px;
+            margin: 4%; 
+            border-radius: 25px;
+            text-align: center;
+            margin-right: auto;
+            margin-left: auto;
+            position: relative;
+        }
+
+        
+        .james-recent-project-container-box img {
+            position: absolute;
+            height: 550px;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        .james-recent-project-container-box h2{
+            margin-left: 50px;
+            margin-top: 80px;
+            font-size: 28px;
+        }
+        
+        .james-recent-project-container-box .p{
+            width: 50%;
+            position: absolute;
+            left: 0;
+            margin-left: 50px;
+            margin-top: 150px;
+            text-align: left;
+        }
+        
+        .james-recent-project-container-box .p p{
+            font-size: 28px;
+        }
+        
+        .james-recent-project-text{
+            font-weight: bold;
+            margin-left: 10%;
+            font-size: 40px;
+        }
+    }
